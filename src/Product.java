@@ -15,29 +15,22 @@ public class Product {
         this.category = category;
         this.customer_rating = customer_rating;
     }
-
     public String getId() {
         return id;
     }
-
     public String getName() {
         return name;
     }
-
     public double getPrice() {
         return price;
     }
-
     public String getBrand() {
         return brand;
     }
-
     public String getCategory() {
         return category;
     }
-
     public double getCustomerRating() {
         return customer_rating;
     }
-
 }
